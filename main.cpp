@@ -2,20 +2,18 @@
 using namespace std;
 
 int main() {
-    float a=0, b=0;
+    float a, b;
     int opzione;
     cin >> opzione;
+    cin >> a >> b;
     switch(opzione){
         case 0:
-            cin >> a >> b;
             cout << (a*b)/2 << endl;
             break;
         case 1:
-            cin >> a;
             cout << a*a << endl;
             break;
         case 2:
-            cin >> a >> b;
             cout << a*b << endl;
             break;
         default:
