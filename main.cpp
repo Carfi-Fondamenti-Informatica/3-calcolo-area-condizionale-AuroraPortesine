@@ -2,8 +2,8 @@
 using namespace std;
 
 int main() {
-    float a, b;
-    int opzione;
+    float a=0, b=0;
+    int opzione=0;
     cin >> opzione;
     switch(opzione){
         case 0:
